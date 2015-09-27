@@ -10,4 +10,14 @@ The intention of this program is as a proof of concept to create a message prog
 that can create, transmit, and display messages of different data types.
 
 The messages will all be created and drawn from the same class but made from
-different methods in the message service interface classes.
+different methods in the message service interface classes. This means that no
+matter what class or method or whatever thing that creates a message does so by
+creating a new "message" object. A new "hello world" message is still a "message"
+object. The same "getStringMessage" method used to get the "hello world" message
+is the same method used to get a custom message object. I believe this makes not
+just the methods and classes portable but the whole program portable. 
+
+ENCAPSULATE WHAT VARIES
+What varies is what the message type is and what the message contents are. By
+making each message be a "message" object, no matter what the type or contents
+are, the message is fully encapsulated by being a "message" object.

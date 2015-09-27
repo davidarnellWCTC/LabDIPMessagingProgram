@@ -1,2 +1,11 @@
 Notes:
 
+→Message Class
+-String
+-int
+-double
+-audio file
+-text file
+-getters and setters for each type
+    (though maybe just getters)
+-constructors based on the type of message
