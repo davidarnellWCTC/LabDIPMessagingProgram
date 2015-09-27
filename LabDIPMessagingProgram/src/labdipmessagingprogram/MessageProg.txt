@@ -1,0 +1,13 @@
+LabDIP Message Program
+
+This program is a replacement for the DIP Lab.
+
+Messages are created from concrete "message" classes rather than interfaces.
+This example was created -clumsily- without a reference from the example provided
+on blackboard. 
+
+The intention of this program is as a proof of concept to create a message prog
+that can create, transmit, and display messages of different data types.
+
+The messages will all be created and drawn from the same class but made from
+different methods in the message service interface classes.
