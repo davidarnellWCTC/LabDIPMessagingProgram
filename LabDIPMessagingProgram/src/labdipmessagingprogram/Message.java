@@ -34,6 +34,7 @@ public class Message {
     }
 
     
+    
     // Getters for the different types of message
     // Initial tests have no setters for the types of messages
     // This forces the programmer to use the constructor, creating a new
